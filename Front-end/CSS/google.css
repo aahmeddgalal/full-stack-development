@@ -5,6 +5,13 @@ input {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  /* height: 24px; Not the bestpractice cuz some browsers won't understand it */
+  line-height: 24px; /* better */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
 }
 
 img {
@@ -15,13 +22,16 @@ img {
   margin-left: auto;
 }
 
+.buttons {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
 .main {
   margin-top: 100px;
 }
 
-input,
-img,
-.buttons,
-a {
+.btn {
   display: block;
+  margin: 20px auto 0;
 }
