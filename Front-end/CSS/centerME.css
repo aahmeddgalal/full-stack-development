@@ -1,0 +1,10 @@
+body {
+  background: rgb(46, 15, 77);
+}
+
+img {
+  display: block;
+  width: 500px;
+  margin-left: auto; /* cuz it's block ele and it takes over all remaining space to left */
+  margin-right: auto;
+}

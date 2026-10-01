@@ -1,0 +1,27 @@
+/* Display block, Stacks on top! */
+
+input {
+  width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  width: 400px;
+  /* margin-bottom: ; */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+input,
+img,
+.buttons,
+a {
+  display: block;
+}

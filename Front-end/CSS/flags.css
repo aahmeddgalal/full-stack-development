@@ -1,0 +1,21 @@
+body {
+  /* margin: 8px; DEFAULT */
+  margin: 0px;
+}
+
+.red {
+  background: red;
+  height: 100px;
+}
+
+.blue {
+  background: blue;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.green {
+  background: green;
+  height: 100px;
+}
