@@ -12,6 +12,7 @@ input {
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 20px;
+  border: rgba(0, 0, 0, 0.116) solid .5px;
 }
 
 img {
@@ -23,7 +24,9 @@ img {
 }
 
 .buttons {
-  display: block;
+  /* text-align: center; And we cancel this too cuz we're better now and gonna use the flexbox */
+  display: flex;
+  justify-content: center;
   margin: 20px auto 0 auto;
 }
 
@@ -32,6 +35,15 @@ img {
 }
 
 .btn {
-  display: block;
-  margin: 20px auto 0;
+  /* display: block;
+  margin: 20px auto 0;  Sorry we want to display the 2 btns on the same line but too lazy to do flexbox*/
+  /* display: inline; add text-align to the container  */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 8px;
+  /* font-weight: bold; */
+  font-size: 14px;
 }
+
+
