@@ -1,0 +1,28 @@
+body {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  width: 400px;
+  /* flexbox containers are mainly block */
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: #d8cefe solid 8px;
+  background: #ddebf8;
+  color: #2b2839;
+  border-radius: 10px;
+}
+
+/* .dot-border {
+  border: blue dotted 1px;
+} */
+
+
+.me-pic {
+  width: 150px;
+}
+
