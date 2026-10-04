@@ -1,0 +1,41 @@
+@font-face {
+  src: url("/the-godfather.regular.ttf");
+  font-family: theGodFather; /* import fonts from .ttf files */
+}
+
+
+body {
+  background-image: url("../../space.jpg");
+  color: white;
+  background-size: cover;
+  text-align: center;
+  /* font-family: theGodFather; */
+  font-family: orbitron;
+}
+
+
+
+/* .orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+} */
+
+.apply {
+  padding: 10px 15px;
+  font-weight: bold;
+  background: white;
+  border: none;
+  font-family: inherit;
+}
+
+
+.underline {
+  /* text-decoration: underline; old not customizable */
+  border-bottom: white solid 5px;
+}
+
+.spacex {
+  width: 400px;
+}
