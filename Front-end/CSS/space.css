@@ -20,6 +20,10 @@ body {
   padding: 10px 0 40px 0;
 }
 
+.landing  h1{
+  text-shadow: 0px 0px 4px black;
+}
+
 /* .orbitron {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
