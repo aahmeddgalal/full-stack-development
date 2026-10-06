@@ -5,15 +5,20 @@
 
 
 body {
-  background-image: url("../../space.jpg");
-  color: white;
-  background-size: cover;
   text-align: center;
   /* font-family: theGodFather; */
   font-family: orbitron;
+  margin: 0;
+  color: #5b7ea3;
 }
 
 
+.landing {
+  background-image: url("./Space\ Science\ Tech\ GIF\ by\ European\ Space\ Agency\ -\ ESA.gif");
+  /* color: white; */
+  background-size: cover;
+  padding: 10px 0 40px 0;
+}
 
 /* .orbitron {
   font-family: "Orbitron", sans-serif;
@@ -28,6 +33,7 @@ body {
   background: white;
   border: none;
   font-family: inherit;
+  color: #3780cd;
 }
 
 
