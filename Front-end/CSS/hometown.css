@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: aquamarine;
+}
+
+.main {
+  background-image: url("./bahaa-mourad-k9fkahy8fGA-unsplash.jpg");
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main h1 {
+  background-color: rgb(19, 112, 81);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.main h3 {
+  background-color: rgb(10, 56, 41);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.top-places {
+  text-align: center;
+}
+
+.places {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.place {
+  width: 20%;
+}
+
+.place img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.guide-card {
+  display: flex;
+  justify-content: center;
+}
+
+.guide {
+  display: flex;
+  background-color: brown;
+  width: 400px;
+  margin-bottom: 100px;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+  border-bottom: darkblue solid 5px;
+  border-radius: 10px;
+}
+
+.guide img {
+  width: 200px;
+}
