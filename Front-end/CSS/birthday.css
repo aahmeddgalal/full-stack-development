@@ -1,15 +1,16 @@
 body {
-  background-color: rgb(6, 67, 79);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-color: rgb(6, 67, 79); */
+  background: linear-gradient(rgb(6, 67, 79), pink);
+  font-family: "Coming Soon";
+  color: whitesmoke;
   text-align: center;
 }
 
 
 main {
-  font-family: "Coming Soon";
-  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main img {
@@ -25,6 +26,76 @@ main p {
   text-shadow: 0 0 3px black;
 }
 
-h3, p {
+#bday-age {
   background-color: rgb(72, 7, 7);
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#bday-date {
+  background-color: rgb(72, 7, 7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.gift-section {
+  margin-top: 100px;
+}
+
+.gift {
+  margin: 0 auto;
+  border: rgb(80, 14, 25) solid 10px;
+  border-radius: 40px;
+  width: 400px;
+  height: 400px;
+  background-image: url("./gift.jpg");
+  background-size: cover;
+  transition: 1s;
+}
+
+.gift:hover {
+  background-image: url("./Will\ Ferrell\ GIF.gif");
+}
+
+.gift-section h2 {
+  margin-bottom: 0px;
+}
+
+.gift-section h3 {
+  margin-top: 0;
+}
+
+
+.gift-hot {
+  margin: 0 auto;
+  border: rgb(80, 14, 25) solid 10px;
+  border-radius: 40px;
+  width: 400px;
+  height: 400px;
+  background-image: url("./gift.jpg");
+  background-size: cover;
+  transition: 1s;
+}
+
+.gift-hot:hover {
+  background-image: url("./Love\ You\ Reaction\ GIF\ by\ Bounce.gif");
+}
+
+footer {
+  margin: 40px auto;
+}
+
+footer a {
+  color: brown;
+  text-decoration: none;
+  transition: 1s;
+}
+
+footer a:hover {
+  color: darkgoldenrod;
+  font-size: 30px;
+  
+  text-decoration: wavy;
 }
