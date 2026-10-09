@@ -3,3 +3,16 @@ body {
   background-size: auto;
   text-align: center;
 }
+
+button {
+  border: none;
+  padding: 10px 15px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(2, 74, 2);
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background-color: rgb(143, 2, 2);
+}
