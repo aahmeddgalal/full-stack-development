@@ -10,4 +10,5 @@ function reset () {
   document.getElementById("counter").innerText = count
 }
 
-// day 3 stoped at 6:20 lesson 20
+
+// wtf is happening ya bro
