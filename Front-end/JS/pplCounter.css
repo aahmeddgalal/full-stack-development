@@ -1,6 +1,6 @@
 body {
-  background-image: url("../CSS/alex.jpg");
-  background-size: auto;
+  background-image: url("/Front-end/CSS/alex.jpg");
+  background-size: cover;
   text-align: center;
 }
 
@@ -16,3 +16,11 @@ button {
 #increment-btn {
   background-color: rgb(143, 2, 2);
 }
+
+#entries {
+  font-weight: bolder;
+  font-size: 20px;
+  stroke: aliceblue;
+  -webkit-text-stroke: .4px white;
+}
+
