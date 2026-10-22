@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(31, 31, 60);
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: rgb(127, 23, 23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+button {
+  border: white solid 1px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+}
