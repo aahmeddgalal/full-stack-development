@@ -6,11 +6,14 @@ let messageEl = " "
 let isAlive = true
 let message = document.getElementById("message")
 let sumEl = document.getElementById("sum")
-let cards = document.querySelector("#card")
+let cardsEl = document.querySelector("#card")
 
 function play() {
   sumEl.textContent = "Sum: " + sum
-  cards.textContent = "Cards: " + firstCard + " | " + secondCard
+  cardsEl.textContent = "Cards: " 
+  for (let i = 0; i < cards.length; i++) {
+    cardsEl.textContent += cards[i] + " "
+  }
   if (sum < 21) {
     messageEl = "Do you want to draw another card?"
   } else if (sum === 21) {
@@ -27,6 +30,7 @@ function play() {
 function newCard() {
   console.log("new card")
   let card = 6
+  cards.push(card)
   sum += card
   play()
 }
