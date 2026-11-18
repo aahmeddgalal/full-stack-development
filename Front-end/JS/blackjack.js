@@ -1,5 +1,6 @@
 let firstCard = 4;
 let secondCard = 9;
+let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard;
 let messageEl = " "
 let isAlive = true
@@ -21,4 +22,11 @@ function play() {
   message.textContent = messageEl
   document.getElementById("cards") += (" "+firstCard + " " + secondCard + " ")
   document.getElementById("sum") += (firstCard + secondCard)
+}
+
+function newCard() {
+  console.log("new card")
+  let card = 6
+  sum += card
+  play()
 }
